@@ -122,7 +122,7 @@ Draws points and optionally draws the connection between them.
 
 | Name   | Type        | Description                                                                                                                                                |
 | :----- | :---------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| points | `Point`     | Points to draw.                                                                                                                                            |
+| points | `Point[]`     | Points to draw.                                                                                                                                            |
 | mode   | `PointMode` | How should the points be connected. Can be `points` (no connection), `lines` (connect pairs of points), or `polygon` (connect lines). Default is `points`. |
 
 ```tsx twoslash
